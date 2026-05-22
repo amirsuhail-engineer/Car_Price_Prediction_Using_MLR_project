@@ -1,0 +1,30 @@
+2026-05-22 12:24:27,444 - INFO - The shape of the data was:(2500, 10)
+2026-05-22 12:24:27,445 - INFO - After removing the carid column then the shape of the data was:(2500, 9)
+2026-05-22 12:24:27,445 - INFO - The list of column names are:Index(['Brand', 'Year', 'Engine Size', 'Fuel Type', 'Transmission', 'Mileage',
+       'Condition', 'Model'],
+      dtype='str')
+2026-05-22 12:24:27,446 - INFO - The datatype of columns is:Brand               str
+Year              int64
+Engine Size     float64
+Fuel Type           str
+Transmission        str
+Mileage           int64
+Condition           str
+Price           float64
+Model               str
+dtype: object
+2026-05-22 12:24:27,447 - INFO - The categorical columns in X are:Index(['Brand', 'Fuel Type', 'Transmission', 'Condition', 'Model'], dtype='str')
+2026-05-22 12:24:27,468 - INFO -  After Converted categorical columns into numerical columns the updated columns  is:
+  Brand  Year  Engine Size Fuel Type Transmission  Mileage Condition Model
+0     0  2016          2.3         0            0   114832         0     0
+1     1  2018          4.4         1            0   143190         1     1
+2     2  2013          4.5         1            0   181601         0     2
+3     0  2011          4.1         2            1    68682         0     3
+4     3  2009          2.6         2            0   223009         2     4
+5     2  2019          2.4         2            1   246553         2     5
+6     2  2020          4.0         1            1   135486         1     6
+7     0  2017          5.3         3            1    83030         0     3
+8     4  2023          5.7         1            0   120360         2     7
+9     3  2010          1.5         1            1   135009         2     8
+2026-05-22 12:24:27,470 - INFO - Train Dataset size : (2000, 8) => (2000,)
+2026-05-22 12:24:27,470 - INFO - Test Dataset size : (500, 8) => (500,)
